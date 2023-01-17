@@ -1,0 +1,185 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.container{
+    width: 95%;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prvi {
+    border: 1px solid black;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.prvi_levi {
+    margin: 5vh 0vh 5vh 2vh;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    padding-bottom: 2vh;
+}
+
+.elementi_prvog_levo {
+    width: 30%;
+    border: 1px solid black;
+    margin-top: 2vh;
+}
+
+.elementi_prvog_levo img {
+    width: 100%;
+    height: 100%;
+}
+
+.prvi_desni {
+    border: 1px solid black;
+    width: 30%;
+    margin: 5vh 2vh 5vh 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.element_prvog_desno {
+    width: 90%;
+    border: 1px solid black;
+    height: 21%;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slika_elementa_desno {
+    width: 33%;
+    border: 1px solid black;
+    /* top right bottom left */
+    height: 100%;
+    /* padding: 1vh 0vh 1vh 0vh; */
+}
+
+.slika_elementa_desno img {
+    width: 100%;
+    height: 100%;
+}
+
+.tekst_elementa_desno {
+    width: 60%;
+    padding-top: 1vh;
+    border: 1px solid black;
+}
+
+.tekst_elementa_desno h3 {
+    width: 90%;
+    font-size: 1.6vh;
+    /* text-align: center; */
+}
+
+.drugi {
+    margin-top: 5vh;
+    border: 1px solid black;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+
+.drugi_element {
+    margin: 2vh 0vh 2vh 0vh;
+    width: 46%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.slika_drugog_elementa {
+    width: 40%;
+    border: 1px solid black;
+}
+
+.slika_drugog_elementa img {
+    height: 100%;
+    width: 100%;
+}
+
+.tekst_drugog_elementa {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .prvi_levi {
+        width: 100%;
+    }
+
+    .elementi_prvog_levo {
+        width: 45%;
+    }
+
+    .obrisi_slike {
+        display: none;
+    }
+
+    .prvi_desni {
+        width: 100%;
+    }
+
+    .prvi_desni {
+        flex-direction: row;
+    }
+
+    .element_prvog_desno {
+        height: 200px;
+    }
+
+    .element_prvog_desno {
+        height: 30%;
+    }
+
+    .prvi_desni {
+        margin-top: 0;
+        margin-bottom: 3vh;
+    }
+
+    .tekst_elementa_desno  {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .element_prvog_desno {
+        width: 45%;
+    }
+
+    .slika_drugog_elementa {
+        width: 30%;
+    }
+
+    .tekst_drugog_elementa {
+        width: 65%;
+    }
+
+    .drugi_element {
+        width: 95%;
+        height: 200px;
+    }
+  }
